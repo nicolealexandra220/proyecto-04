@@ -1,0 +1,109 @@
+.gradient-custom {
+  /* fallback for old browsers */
+  background: rgb(248, 184, 45);
+
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(to right, rgb(248, 184, 45), rgb(109, 233, 233));
+
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to right, rgb(248, 184, 45), rgb(109, 233, 233))
+  }
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+  .gatos{
+      position:absolute;
+      margin-left:650px;
+      margin-top: 50px;
+  }
+  .logo{
+      height: 50px;
+      width: 75px;
+  }
+  .lds-ellipsis {
+    display: inline-block;
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    margin-top: 1.4rem;
+    margin-left: -5.5rem;
+  }
+  .lds-ellipsis div {
+    position: absolute;
+    top: 33px;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background: rgb(0, 0, 0);
+    animation-timing-function: cubic-bezier(0, 1, 1, 0);
+  }
+  .lds-ellipsis div:nth-child(1) {
+    left: 8px;
+    animation: lds-ellipsis1 0.6s infinite;
+  }
+  .lds-ellipsis div:nth-child(2) {
+    left: 8px;
+    animation: lds-ellipsis2 0.6s infinite;
+  }
+  .lds-ellipsis div:nth-child(3) {
+    left: 32px;
+    animation: lds-ellipsis2 0.6s infinite;
+  }
+  .lds-ellipsis div:nth-child(4) {
+    left: 56px;
+    animation: lds-ellipsis3 0.6s infinite;
+  }
+  @keyframes lds-ellipsis1 {
+    0% {
+      transform: scale(0);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  @keyframes lds-ellipsis3 {
+    0% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(0);
+    }
+  }
+  @keyframes lds-ellipsis2 {
+    0% {
+      transform: translate(0, 0);
+    }
+    100% {
+      transform: translate(24px, 0);
+    }
+  }
+  .card{
+    background-color: rgba(247, 247, 247, 0.068);
+    box-shadow: 0 0 0.5rem rgb(0, 0, 0);
+  }
+  .contenedor{
+    float: left;
+
+  }
+  .patalike{
+    width: 50px;
+    height: 50px;
+    margin-right: 0.8rem;
+  }
+  .likeNum{
+    margin-top: -2.6rem;
+    color: white;
+  }
+  .like{
+    font-size: 20px; 
+    font-family:'Indie Flower', cursive;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    color: white;
+  }
+  .raton{
+    width: 35px;
+    height: 35px;
+  }
